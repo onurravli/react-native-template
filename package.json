@@ -5,6 +5,7 @@
   "main": "expo-router/entry",
   "scripts": {
     "android": "DARK_MODE=media expo start --android",
+    "clean": "rm README.md && && rm -rf .git && git init -b master && git add . && git commit -m 'chore: initial commit'",
     "dev": "npm run ios",
     "format": "prettier --write .",
     "ios": "DARK_MODE=media expo start --ios",
