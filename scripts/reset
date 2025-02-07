@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+rm README.md
+
+rm -rf .git
+
+git init -b main
+
+git add .
+
+git commit -m "chore: initial commit"
+
